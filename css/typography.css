@@ -21,6 +21,10 @@ main p{
   font-size: 1.3em;
 }
 
+.tagline {
+  font-weight: bold;
+}
+
 .font-small {
   font-size: 0.8em;
 } 
