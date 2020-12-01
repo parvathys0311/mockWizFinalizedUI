@@ -99,9 +99,13 @@ form ul {
   justify-content: center;
 }
 
+form li {
+  padding-top: 0.6em;
+}
+
 
 input, select, option {
-  padding: 0.4em 0;
+  padding: 0.3em 0;
 
   border:0;
   border-bottom: 0.5px solid #d2d2d2;
@@ -184,7 +188,7 @@ button:hover {
 }
 
 .expertForm {
-  margin: 2em 0;
+  margin: 1.8em 0;
 }
 
 /* desktop specific view styles */
