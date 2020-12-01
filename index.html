@@ -8,64 +8,66 @@
   <link rel="stylesheet" href="css/typography.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/footer.css">
-  <link rel="stylesheet" href="css/header.css"> 
+  <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
 
 <body>
   <div class="wrapper">
-    <div class="container-left">
-      <header>
-        <div class="logo-item">
-          <a href="index.html"><img class="logo" src="./images/MockWiz-Logo.svg" alt="MockWiz Logo"></a>
-        </div>
-      </header>
+    <header class="header-class">
+      <div class="logo-item">
+        <a href="index.html"><img class="logo" src="./images/MockWiz-Logo.svg" alt="MockWiz Logo"></a>
+      </div>
+      <div class="header-empty"> </div>
+    </header>
+    
       <main>
-        <h1 class="heading">Got professional interviewing experience?</h1>
-        <p class="tagline">Earn up to $60 per hour by helping others practice for job interviews.</p>
-        <div class="expertForm">
-          <form action="#">
-            <ul class="ex_containerForm">
-              <li>
-                <input type="text" name="name" placeholder="First Name" class="ex-input">
-              </li>
-              <li>
-                <input type="text" name="_replyto" placeholder="Email Address" class="ex-input">
-              </li>
-              <select id="role" class="ex-input selectEx">
-                <option value="" disabled selected>Primary Function</option>
-                <option value="1" class="color">Oil & Gas</option>
-                <option value="2">Manufacturing</option>
-                <option value="3">Information technology</option>
-                <option value="4">Finance</option>
-              </select>
-              <select id="role" class="ex-input selectEx">
-                <option value="" disabled selected>Interviewing Experience</option>
-                <option value="1" class="color">Oil & Gas</option>
-                <option value="2">Manufacturing</option>
-                <option value="3">Information technology</option>
-                <option value="4">Finance</option>
-              </select>
-              <li>
-                <button type="submit" class="button-default" id="ex-button">Request Early Access</button>
-              </li>
-              <li>
-                <p class="font-small">By submitting your information, you agree to our <a href="#">Terms of Use & Privacy Policy.</a>
-                </p>
-              </li>
-              <!-- <input type="submit" value="Submit"> -->
-            </ul>
-          </form>
+        <div class="container-left">
+          <h1 class="heading">Got professional interviewing experience?</h1>
+          <p class="tagline">Earn up to $60 per hour by helping others practice for job interviews.</p>
+          <div class="expertForm">
+            <form action="#">
+              <ul class="ex_containerForm">
+                <li>
+                  <input type="text" name="name" placeholder="First Name" class="ex-input">
+                </li>
+                <li>
+                  <input type="text" name="_replyto" placeholder="Email Address" class="ex-input">
+                </li>
+                <select id="role" class="ex-input selectEx">
+                  <option value="" disabled selected>Primary Function</option>
+                  <option value="1" class="color">Oil & Gas</option>
+                  <option value="2">Manufacturing</option>
+                  <option value="3">Information technology</option>
+                  <option value="4">Finance</option>
+                </select>
+                <select id="role" class="ex-input selectEx">
+                  <option value="" disabled selected>Interviewing Experience</option>
+                  <option value="1" class="color">Oil & Gas</option>
+                  <option value="2">Manufacturing</option>
+                  <option value="3">Information technology</option>
+                  <option value="4">Finance</option>
+                </select>
+                <li>
+                  <button type="submit" class="button-default" id="ex-button">Request Early Access</button>
+                </li>
+                <li>
+                  <p class="font-small">By submitting your information, you agree to our <a href="#">Terms of Use & Privacy Policy.</a>
+                  </p>
+                </li>
+                <!-- <input type="submit" value="Submit"> -->
+              </ul>
+            </form>
+          </div>
         </div>
-      </main>
-      <footer>
-        <p class="font-small">©2020-21 MockWiz. All rights reserved.
-        </p>
-      </footer>
-    </div>
-    <div class="container-right">
-      <div class="imageStyle"><img src="./images/MockWiz-Cover.jpg"></div>
-    </div>
+        <div class="container-right">
+          <div class="imageStyle"><img src="./images/MockWiz-Cover.jpg"></div>
+        </div>
+      </main>  
+    <footer>
+      <p class="font-small">©2020-21 MockWiz. All rights reserved.
+      </p>
+    </footer>
   </div>
 </body>
 <script src="./js/menu-toggle.js"></script>

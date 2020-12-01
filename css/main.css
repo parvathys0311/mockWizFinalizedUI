@@ -142,10 +142,6 @@ button:hover {
 
 @media (orientation: landscape) {
 
-  .wrapper {
-    flex-direction: row;
-  }
-
   .container-left {
     width: 55%;
   }

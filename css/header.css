@@ -1,16 +1,20 @@
-****************
-/* Header */
-/******************/
+header {
+  padding-left: 2em;
 
-/* header contains only logo */
-header{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-    
-  background-color: rgb(255, 255, 255);
-
   flex-wrap: wrap;
+}
+
+.logo-item {
+  padding-top: 2em;
+  min-width: 55%;
+}
+
+.header-empty {
+  padding-top: 2em;
+  background-color: #4eb8b4;
+  min-height: 100%;
+  min-width: 45%;
 }
 /********/
 /* Logo */
@@ -26,10 +30,6 @@ header{
 
 /* (desktop view is handled in the media query below) */
 /* Screen is in 'landscape' orientation (desktop view) */
-@media (orientation: landscape) {
-  
-  
-}
 
 
 
