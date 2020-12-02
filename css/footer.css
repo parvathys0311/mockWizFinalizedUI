@@ -14,7 +14,7 @@ footer {
 footer p {
   text-align: left;
   margin: 0;
-  padding: 1em;
+  padding-bottom: 1em;
 }
 
 
@@ -31,7 +31,8 @@ footer p {
   footer p {
     text-align: left;
     margin: 0;
-    padding-top: 1em;
+    /* padding-top: 1em; */
+    padding-bottom: 0;
   }
   /* Following is for "sticky" footer */
   
