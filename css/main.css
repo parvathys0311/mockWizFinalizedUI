@@ -125,26 +125,26 @@ input:focus, select:focus{
 }
 
 .selectEx {
-  color:  #c3c3c3;
+  color:  #aaaaaa;
 }
 
-option:not(first-child) {color: #c3c3c3}
+option:not(first-child) {color: #aaaaaa}
 
 textarea {
   resize: vertical;
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #c3c3c3;
+  color: #aaaaaa;
 }
 ::-moz-placeholder { /* Firefox 19+ */
-  color:  #c3c3c3;
+  color:  #aaaaaa;
 }
 :-ms-input-placeholder { /* IE 10+ */
-  color:  #c3c3c3;
+  color:  #aaaaaa;
 }
 :-moz-placeholder { /* Firefox 18- */
-  color: #c3c3c3;
+  color: #aaaaaa;
 }
 
 select {
